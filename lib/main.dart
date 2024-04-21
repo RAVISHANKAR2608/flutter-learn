@@ -60,10 +60,11 @@ class _BottomNavigationState extends State<BottomNavigation> {
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _currentIndex,
         onTap: _onTabTapped,
-        selectedItemColor: Colors.red,
+        selectedItemColor: Colors.black,
+        selectedLabelStyle: TextStyle(fontWeight: FontWeight.w600),
         unselectedItemColor: Colors.black,
         selectedIconTheme: IconThemeData(
-          color: Colors.red, // Color of selected icon
+          color: Color.fromARGB(255, 127, 213, 130), // Color of selected icon
           size: 30.0, // Size of selected icon
         ),
         // backgroundColor: const Color.fromARGB(255, 156, 90, 90),
@@ -71,7 +72,8 @@ class _BottomNavigationState extends State<BottomNavigation> {
           BottomNavigationBarItem(
               icon: Icon(Icons.chat),
               label: 'Chats',
-              backgroundColor: Colors.amber),
+              // backgroundColor: Color.fromARGB(255, 211, 210, 207)
+              ),
           BottomNavigationBarItem(
             icon: Icon(Icons.stadium_outlined),
             label: 'Status',
