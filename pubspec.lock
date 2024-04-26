@@ -41,6 +41,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.18.0"
+  country_code_text_field:
+    dependency: "direct main"
+    description:
+      name: country_code_text_field
+      sha256: "4923267ea61a41073e5ede9961fa068c2083db2c812661352aa9f91af41dd9ed"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.2"
   cupertino_icons:
     dependency: "direct main"
     description:
@@ -210,3 +218,4 @@ packages:
     version: "13.0.0"
 sdks:
   dart: ">=3.3.3 <4.0.0"
+  flutter: ">=1.17.0"
